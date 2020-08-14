@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'main_view_controller.dart';
+import 'view_controller/home/home_view_controller.dart';
 
 void main() {
   runApp(App());
@@ -15,7 +15,7 @@ class App extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MainViewController(),
+      home: HomeViewController(),
     );
   }
 }
