@@ -41,8 +41,4 @@ class HomeViewController extends StatelessWidget {
       },
     );
   }
-
-  void addButtonNumber(model, index) {
-    model.addButtonNumber(index);
-  }
 }
