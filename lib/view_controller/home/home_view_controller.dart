@@ -60,7 +60,7 @@ class _HomeViewControllerState extends State<HomeViewController> {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10.0),
                       ),
-                      color: Colors.cyanAccent,
+                      color: Colors.grey,
                       child: FittedBox(
                         fit: BoxFit.fitWidth,
                         child: Text(
